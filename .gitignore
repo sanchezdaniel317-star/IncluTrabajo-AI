@@ -1,0 +1,21 @@
+# Entorno y secretos
+.env
+backend/.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Pruebas y temporales
+test-results/
+playwright-report/
+*.log
