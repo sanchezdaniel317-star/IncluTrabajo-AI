@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Bandas de ruta</title>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--y:#ffcc00;--ink:#111;--g:#2b2b2b;--paper:#fff;--line:#e2e2e2;--soft:#505050}
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:var(--paper);color:var(--ink);font-family:"Hanken Grotesk",system-ui,sans-serif}
+header{height:64px;background:var(--ink);color:#fff;display:flex;align-items:center;padding:0 48px;gap:40px}
+.brand{font-weight:800;font-size:22px}
+nav{display:flex;gap:28px;font-size:18px;font-weight:600}
+nav a.on{color:var(--y)}
+.band{background:var(--y);display:flex;align-items:center;padding:0 48px;height:112px;gap:28px}
+.pict{width:72px;height:72px;background:var(--ink);display:grid;place-items:center}
+.pict svg{width:46px;height:46px;stroke:#fff;stroke-width:2.6;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.band .msg{font-size:34px;font-weight:800;line-height:1.15}
+.band .msg small{display:block;font-size:19px;font-weight:600;margin-top:4px}
+.band .go{margin-left:auto;display:flex;align-items:center;gap:12px;font-size:22px;font-weight:800}
+.band .go svg{width:44px;height:44px;stroke:var(--ink);stroke-width:3.2;fill:none}
+main{display:grid;grid-template-columns:520px 1fr;gap:56px;padding:40px 48px 0}
+.gate{border-top:6px solid var(--ink);padding-top:20px}
+.gate .num{font-size:176px;font-weight:800;line-height:.9;letter-spacing:-.04em}
+.gate .lbl{font-size:24px;font-weight:800;margin-top:12px}
+.gate h1{font-size:36px;font-weight:800;margin-top:24px;line-height:1.15}
+.gate p{font-size:20px;color:var(--soft);margin-top:8px}
+.list{border-top:6px solid var(--ink)}
+.r{display:grid;grid-template-columns:88px 1fr 200px;align-items:center;padding:22px 0;border-bottom:2px solid var(--line);gap:20px}
+.r .n{font-size:44px;font-weight:800}
+.r b{font-size:24px;display:block}
+.r span{font-size:18px;color:var(--soft)}
+.r .st{justify-self:end;font-size:19px;font-weight:800;padding:8px 14px;background:var(--g);color:#fff}
+.r .st.y{background:var(--y);color:var(--ink)}
+h2{font-size:20px;font-weight:800;padding:0 0 14px}
+.demo{position:absolute;right:48px;bottom:20px;font-size:16px;color:var(--soft)}
+</style></head><body>
+<header><div class="brand">IncluTrabajo IA</div>
+  <nav><a>Inicio</a><a class="on">Vacantes para ti</a><a>Mis postulaciones</a><a>Mi perfil</a><a>Avisos</a></nav></header>
+<div class="band">
+  <span class="pict"><svg viewBox="0 0 46 46"><circle cx="23" cy="10" r="4"/><path d="M23 16v12l-6 12M23 28l6 12M15 22h16"/></svg></span>
+  <div class="msg">Completa 2 ajustes de tu perfil<small>y verás 3 vacantes más que hoy no aparecen</small></div>
+  <span class="go">Ir al perfil<svg viewBox="0 0 44 44"><path d="M8 22h28M26 12l10 10-10 10"/></svg></span>
+</div>
+<main>
+  <div class="gate">
+    <div class="num">93</div>
+    <div class="lbl">de 100 · tu mejor coincidencia</div>
+    <h1>Auxiliar administrativo</h1>
+    <p>TechIncluye S.A.S. · Cartagena · Híbrido · $1.900.000</p>
+  </div>
+  <div>
+    <h2>Todas tus coincidencias</h2>
+    <div class="list">
+      <div class="r"><span class="n">93</span><div><b>Auxiliar administrativo</b><span>Lector de pantalla verificado · horario flexible declarado</span></div><span class="st y">Encaja mucho</span></div>
+      <div class="r"><span class="n">61</span><div><b>Desarrollador junior frontend</b><span>Teletrabajo verificado · te falta inglés</span></div><span class="st">Encaja en parte</span></div>
+      <div class="r"><span class="n">52</span><div><b>Asesor de atención al cliente</b><span>No declara lector de pantalla, que marcaste esencial</span></div><span class="st">Falta un ajuste</span></div>
+    </div>
+  </div>
+</main>
+<div class="demo">Datos de demostración</div>
+</body></html>

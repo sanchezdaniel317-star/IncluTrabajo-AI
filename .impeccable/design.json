@@ -1,0 +1,497 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T12:00:00-05:00",
+  "title": "Design System: IncluTrabajo IA",
+  "extensions": {
+    "colorMeta": {
+      "suelo": {
+        "role": "neutral",
+        "displayName": "Suelo durazno",
+        "canonical": "#fce9dd",
+        "tonalRamp": [
+          "#3a2a20",
+          "#5e4334",
+          "#86614d",
+          "#ad8268",
+          "#cfa489",
+          "#ebc6ae",
+          "#f6d9c7",
+          "#fce9dd"
+        ]
+      },
+      "suelo-2": {
+        "role": "neutral",
+        "displayName": "Durazno hondo",
+        "canonical": "#f6d9c7",
+        "tonalRamp": [
+          "#36261c",
+          "#58402f",
+          "#7e5c47",
+          "#a47b62",
+          "#c79c80",
+          "#e3bea6",
+          "#f0cdb8",
+          "#f6d9c7"
+        ]
+      },
+      "suelo-3": {
+        "role": "neutral",
+        "displayName": "Durazno tostado",
+        "canonical": "#f0cdb8"
+      },
+      "tarjeta": {
+        "role": "neutral",
+        "displayName": "Blanco tarjeta",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#444444",
+          "#666666",
+          "#888888",
+          "#aaaaaa",
+          "#cccccc",
+          "#eeeeee",
+          "#ffffff"
+        ]
+      },
+      "tinta": {
+        "role": "neutral",
+        "displayName": "Tinta",
+        "canonical": "#1b1b1f",
+        "tonalRamp": [
+          "#1b1b1f",
+          "#2e2e33",
+          "#44444b",
+          "#5d5d65",
+          "#7a7a82",
+          "#9a9aa1",
+          "#c3c3c8",
+          "#ececef"
+        ]
+      },
+      "tinta-2": {
+        "role": "neutral",
+        "displayName": "Gris cálido",
+        "canonical": "#55555e",
+        "tonalRamp": [
+          "#1e1e22",
+          "#33333a",
+          "#55555e",
+          "#6e6e77",
+          "#8a8a92",
+          "#a9a9b0",
+          "#cacacf",
+          "#ececef"
+        ]
+      },
+      "filete": {
+        "role": "neutral",
+        "displayName": "Filete",
+        "canonical": "#efd3c2",
+        "tonalRamp": [
+          "#3a2a20",
+          "#5c4434",
+          "#82614e",
+          "#a7816c",
+          "#c8a28d",
+          "#b9a497",
+          "#efd3c2",
+          "#fbefe7"
+        ]
+      },
+      "control": {
+        "role": "neutral",
+        "displayName": "Gris de control",
+        "canonical": "#85838c",
+        "tonalRamp": [
+          "#1f1e22",
+          "#35343a",
+          "#4a4950",
+          "#65646c",
+          "#85838c",
+          "#a3a2a9",
+          "#c6c5ca",
+          "#ebeaed"
+        ]
+      },
+      "accion": {
+        "role": "primary",
+        "displayName": "Verde Caribe de acción",
+        "canonical": "#096a50",
+        "tonalRamp": [
+          "#032a20",
+          "#054634",
+          "#075540",
+          "#096a50",
+          "#2e8a6e",
+          "#6bb39b",
+          "#b4dccd",
+          "#dcefe7"
+        ]
+      },
+      "verificado": {
+        "role": "secondary",
+        "displayName": "Sello azul verificado",
+        "canonical": "#1f4fbf",
+        "tonalRamp": [
+          "#0b1d47",
+          "#132f75",
+          "#1a3f9f",
+          "#1f4fbf",
+          "#4a72d1",
+          "#839fe0",
+          "#bccdf1",
+          "#e4ebfb"
+        ]
+      },
+      "ajustable": {
+        "role": "secondary",
+        "displayName": "Ámbar ajustable",
+        "canonical": "#855600",
+        "tonalRamp": [
+          "#2e1e00",
+          "#4d3200",
+          "#6b4500",
+          "#855600",
+          "#a8761e",
+          "#cfa45a",
+          "#ebd09c",
+          "#fbefd3"
+        ]
+      },
+      "falta": {
+        "role": "secondary",
+        "displayName": "Ladrillo falta",
+        "canonical": "#b3261e",
+        "tonalRamp": [
+          "#3f0c09",
+          "#661712",
+          "#8e1f18",
+          "#b3261e",
+          "#cc5048",
+          "#e08982",
+          "#f0c0bb",
+          "#fbe4e1"
+        ]
+      },
+      "contraste-fondo": {
+        "role": "neutral",
+        "displayName": "Fondo alto contraste",
+        "canonical": "#000000"
+      },
+      "contraste-accion": {
+        "role": "primary",
+        "displayName": "Acción alto contraste",
+        "canonical": "#ffe500"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Solo el titular de la portada."
+      },
+      "headline": {
+        "displayName": "Titular de sección",
+        "purpose": "Secciones de la portada."
+      },
+      "page-title": {
+        "displayName": "Título de pantalla",
+        "purpose": "Titular de cada pantalla interna de persona y empresa."
+      },
+      "title": {
+        "displayName": "Título de tarjeta",
+        "purpose": "Títulos de tarjeta y de vacante."
+      },
+      "body": {
+        "displayName": "Cuerpo",
+        "purpose": "Texto corrido en Figtree, 18 px."
+      },
+      "body-legible": {
+        "displayName": "Cuerpo de alta legibilidad",
+        "purpose": "Se activa con html[data-letra=\"legible\"]."
+      },
+      "label": {
+        "displayName": "Etiqueta",
+        "purpose": "Etiquetas de campo y texto de botón."
+      },
+      "help": {
+        "displayName": "Ayuda",
+        "purpose": "Textos de ayuda bajo etiquetas, en gris cálido."
+      },
+      "nav-bar-label": {
+        "displayName": "Etiqueta de barra inferior",
+        "purpose": "Texto bajo los íconos de la barra del celular."
+      },
+      "lead-grande": {
+        "displayName": "Bajada grande",
+        "purpose": "Bajada del titular de la portada; marca desde 640px."
+      },
+      "lead": {
+        "displayName": "Bajada",
+        "purpose": "Subtítulo de pantallas internas, texto de btn-grande y marca en celular."
+      },
+      "chip": {
+        "displayName": "Chip de estado",
+        "purpose": "Chips estado-* (verificado, declarado, ajustable, falta, neutro)."
+      }
+    },
+    "shadows": [
+      {
+        "name": "tarjeta-reposo",
+        "value": "0 1px 2px rgb(27 27 31 / 0.04), 0 14px 32px -22px rgb(27 27 31 / 0.28)",
+        "purpose": "Toda tarjeta en reposo."
+      },
+      {
+        "name": "tarjeta-hover",
+        "value": "0 14px 30px -18px rgb(27 27 31 / 0.35)",
+        "purpose": "Tarjeta tocable al pasar, con ascenso de 2px."
+      },
+      {
+        "name": "barra-inferior",
+        "value": "0 10px 30px -12px rgb(27 27 31 / 0.35)",
+        "purpose": "Barra flotante del celular."
+      },
+      {
+        "name": "desplegable",
+        "value": "0 24px 60px -20px rgb(27 27 31 / 0.45)",
+        "purpose": "Paneles de accesibilidad y de cuenta."
+      },
+      {
+        "name": "paso-activo",
+        "value": "0 0 0 3px var(--color-tinta)",
+        "purpose": "Anillo del criterio que se está leyendo en «la coincidencia se arma»."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-resorte",
+        "value": "cubic-bezier(0.34, 1.25, 0.64, 1)",
+        "purpose": "Presión de botones (scale 0.96, 0.35s) y tarjetas tocables (scale 0.985, 0.4s)."
+      },
+      {
+        "name": "ease-salida",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Paso activo del gesto de la portada (0.5s)."
+      },
+      {
+        "name": "coincidencia-se-arma",
+        "value": "GSAP ScrollTrigger, scrub 0.6, start top 70%, end bottom 75%, ease power3.out",
+        "purpose": "Razones que aparecen y se apilan mientras el anillo cuenta hasta el puntaje. Estado final sin JS o con movimiento reducido."
+      },
+      {
+        "name": "movimiento-reducido",
+        "value": "animation/transition-duration 0.01ms",
+        "purpose": "prefers-reduced-motion: reduce o html[data-movimiento=\"reducido\"]."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "40rem"
+      },
+      {
+        "name": "md",
+        "value": "48rem"
+      },
+      {
+        "name": "lg",
+        "value": "64rem"
+      },
+      {
+        "name": "barra-inferior-2x2",
+        "value": "@container (width < 22rem)"
+      }
+    ],
+    "focus": {
+      "value": "outline: 3px solid var(--color-tinta); outline-offset: 3px; border-radius: 0.5rem",
+      "altoContraste": "outline-color: #ffe500"
+    },
+    "preferenceModes": [
+      {
+        "attr": "data-texto",
+        "values": {
+          "grande": "font-size 118.75%",
+          "enorme": "font-size 137.5%"
+        }
+      },
+      {
+        "attr": "data-contraste",
+        "values": {
+          "alto": "tokens a negro/blanco, acción #ffe500 con texto negro, bordes blancos en tarjetas y barra, .decorativo oculto"
+        }
+      },
+      {
+        "attr": "data-letra",
+        "values": {
+          "legible": "body en Atkinson Hyperlegible Next"
+        }
+      },
+      {
+        "attr": "data-espaciado",
+        "values": {
+          "amplio": "line-height 1.85, letter-spacing 0.04em, word-spacing 0.12em, párrafos con 0.9em abajo"
+        }
+      },
+      {
+        "attr": "data-movimiento",
+        "values": {
+          "reducido": "anula animaciones y transiciones"
+        }
+      },
+      {
+        "media": "prefers-contrast: more",
+        "values": {
+          "tinta-2": "#2e2e33",
+          "control": "#4a4950",
+          "filete": "#b9a497"
+        }
+      },
+      {
+        "media": "forced-colors: active",
+        "values": {
+          "bordes": "1px CanvasText en tarjeta, opción, barra, estado, marca; 2px ButtonText en botones; 2px Highlight en el destino actual"
+        }
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón de acción",
+      "kind": "button",
+      "refersTo": "button-accion",
+      "description": "Acción principal; el único verde fuerte de la pantalla.",
+      "html": "<button class=\"ds-btn ds-btn-accion\">Postularme <svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4.5 12h15M13.5 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.6rem; min-height: 3.25rem; padding: 0.8rem 1.5rem; border-radius: 999px; border: 2px solid transparent; font-family: var(--font-sans, 'Figtree Variable', Figtree, system-ui, sans-serif); font-weight: 800; font-size: 1.0625rem; line-height: 1.2; cursor: pointer; transition: transform 0.35s cubic-bezier(0.34, 1.25, 0.64, 1), background-color 0.2s ease, border-color 0.2s ease; } .ds-btn:active { transform: scale(0.96); } .ds-btn:focus-visible { outline: 3px solid var(--color-tinta, #1b1b1f); outline-offset: 3px; } .ds-btn-accion { background: var(--color-accion, #096a50); color: #fff; } .ds-btn-accion:hover { background: var(--color-accion-hover, #075540); } .ds-btn-accion:active { background: var(--color-accion-presion, #054634); }"
+    },
+    {
+      "name": "Botón claro",
+      "kind": "button",
+      "refersTo": "button-claro",
+      "description": "Acción secundaria: blanco con borde de tinta.",
+      "html": "<button class=\"ds-btn-claro\">Entrar</button>",
+      "css": ".ds-btn-claro { display: inline-flex; align-items: center; justify-content: center; min-height: 3.25rem; padding: 0.8rem 1.5rem; border-radius: 999px; border: 2px solid var(--color-tinta, #1b1b1f); background: var(--color-tarjeta, #fff); color: var(--color-tinta, #1b1b1f); font-family: var(--font-sans, 'Figtree Variable', Figtree, system-ui, sans-serif); font-weight: 800; font-size: 1.0625rem; cursor: pointer; transition: transform 0.35s cubic-bezier(0.34, 1.25, 0.64, 1), background-color 0.2s ease; } .ds-btn-claro:hover { background: var(--color-suelo, #fce9dd); } .ds-btn-claro:active { transform: scale(0.96); } .ds-btn-claro:focus-visible { outline: 3px solid var(--color-tinta, #1b1b1f); outline-offset: 3px; }"
+    },
+    {
+      "name": "Botón suave",
+      "kind": "button",
+      "refersTo": "button-suave",
+      "description": "Herramientas: accesibilidad, avisos, dictado.",
+      "html": "<button class=\"ds-btn-suave\" aria-label=\"Dictar con la voz\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 14.5a3 3 0 0 0 3-3V6a3 3 0 0 0-6 0v5.5a3 3 0 0 0 3 3ZM6.5 11.5a5.5 5.5 0 0 0 11 0M12 17v3.5\"/></svg></button>",
+      "css": ".ds-btn-suave { display: inline-grid; place-items: center; min-height: 3rem; min-width: 3rem; padding: 0.6rem; border-radius: 999px; border: 2px solid transparent; background: var(--color-suelo-2, #f6d9c7); color: var(--color-tinta, #1b1b1f); cursor: pointer; transition: transform 0.35s cubic-bezier(0.34, 1.25, 0.64, 1); } .ds-btn-suave:hover { background: var(--color-suelo-3, #f0cdb8); } .ds-btn-suave:active { transform: scale(0.96); } .ds-btn-suave:focus-visible { outline: 3px solid var(--color-tinta, #1b1b1f); outline-offset: 3px; }"
+    },
+    {
+      "name": "Campo de texto",
+      "kind": "input",
+      "refersTo": "entrada",
+      "description": "Etiqueta en negrita, ayuda opcional, campo blanco de borde 2px.",
+      "html": "<div class=\"ds-campo\"><label class=\"ds-etiqueta\" for=\"ds-cargo\">Cargo que buscas</label><p class=\"ds-ayuda\">Por ejemplo, auxiliar administrativo.</p><input id=\"ds-cargo\" class=\"ds-entrada\" type=\"text\"></div>",
+      "css": ".ds-campo { display: grid; gap: 0.45rem; font-family: var(--font-sans, 'Figtree Variable', Figtree, system-ui, sans-serif); color: var(--color-tinta, #1b1b1f); } .ds-etiqueta { font-weight: 800; font-size: 1.0625rem; } .ds-ayuda { margin: 0; color: var(--color-tinta-2, #55555e); font-size: 1rem; } .ds-entrada { width: 100%; min-height: 3.25rem; padding: 0.75rem 1rem; background: var(--color-tarjeta, #fff); color: var(--color-tinta, #1b1b1f); border: 2px solid var(--color-control, #85838c); border-radius: 1rem; font: inherit; font-size: 1.0625rem; caret-color: var(--color-accion, #096a50); } .ds-entrada:hover { border-color: var(--color-tinta-2, #55555e); } .ds-entrada:focus-visible { outline: 3px solid var(--color-tinta, #1b1b1f); outline-offset: 2px; border-color: var(--color-tinta, #1b1b1f); }"
+    },
+    {
+      "name": "Estados del ajuste",
+      "kind": "chip",
+      "refersTo": "estado-verificado",
+      "description": "Verificado, declarado, ajustable y falta: color, ícono y palabra; nunca el verde de acción.",
+      "html": "<div class=\"ds-estados\"><span class=\"ds-estado ds-verificado\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3.5 14 5.4l2.7-.3.6 2.7 2.4 1.3-1.1 2.5 1.1 2.5-2.4 1.3-.6 2.7-2.7-.3L12 20.5 10 18.6l-2.7.3-.6-2.7-2.4-1.3L5.4 12 4.3 9.5l2.4-1.3.6-2.7 2.7.3ZM9 12l2 2 4-4\"/></svg>Verificado</span><span class=\"ds-estado ds-declarado\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4.5 5.5h15v10h-8l-4 3.5v-3.5h-3Z\"/></svg>Declarado</span><span class=\"ds-estado ds-ajustable\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 20.5a8.5 8.5 0 1 0 0-17 8.5 8.5 0 0 0 0 17ZM12 7.5V12l3 2\"/></svg>Se puede ajustar</span><span class=\"ds-estado ds-falta\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6.5 6.5l11 11M17.5 6.5l-11 11\"/></svg>Falta</span></div>",
+      "css": ".ds-estados { display: flex; flex-wrap: wrap; gap: 0.5rem; font-family: var(--font-sans, 'Figtree Variable', Figtree, system-ui, sans-serif); } .ds-estado { display: inline-flex; align-items: center; gap: 0.4rem; font-weight: 800; font-size: 0.9375rem; padding: 0.3rem 0.75rem; border-radius: 999px; line-height: 1.3; } .ds-verificado { background: var(--color-verificado-suave, #e4ebfb); color: var(--color-verificado, #1f4fbf); } .ds-declarado { background: var(--color-tarjeta, #fff); color: var(--color-tinta-2, #55555e); border: 2px dashed var(--color-control, #85838c); } .ds-ajustable { background: var(--color-ajustable-suave, #fbefd3); color: var(--color-ajustable, #855600); } .ds-falta { background: var(--color-falta-suave, #fbe4e1); color: var(--color-falta, #b3261e); }"
+    },
+    {
+      "name": "Tarjeta de coincidencia",
+      "kind": "card",
+      "refersTo": "tarjeta-grande",
+      "description": "Anillo de puntaje en tinta, filas de razones sobre suelo con marcas en tinta sobre suelo-2, y la acción en verde.",
+      "html": "<article class=\"ds-tarjeta\"><h3 class=\"ds-cargo\">Auxiliar administrativo</h3><div class=\"ds-cabeza\"><span class=\"ds-anillo\"><svg viewBox=\"0 0 100 100\" aria-hidden=\"true\"><circle cx=\"50\" cy=\"50\" r=\"42\" fill=\"none\" stroke=\"#f6d9c7\" stroke-width=\"12\"/><circle cx=\"50\" cy=\"50\" r=\"42\" fill=\"none\" stroke=\"#1b1b1f\" stroke-width=\"12\" stroke-linecap=\"round\" stroke-dasharray=\"263.9\" stroke-dashoffset=\"18.5\" transform=\"rotate(-90 50 50)\"/></svg><b>93</b></span><p class=\"ds-etiqueta-res\">Muy compatible con Ana</p></div><ul class=\"ds-filas\"><li><span class=\"ds-marca\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m5 12.5 4.5 4.5L19 7.5\"/></svg></span>Tienes las competencias que pide.</li><li><span class=\"ds-marca ds-marca-verificado\"><svg viewBox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 3.5 14 5.4l2.7-.3.6 2.7 2.4 1.3-1.1 2.5 1.1 2.5-2.4 1.3-.6 2.7-2.7-.3L12 20.5 10 18.6l-2.7.3-.6-2.7-2.4-1.3L5.4 12 4.3 9.5l2.4-1.3.6-2.7 2.7.3ZM9 12l2 2 4-4\"/></svg></span>Rampa verificada en el puesto.</li></ul><a class=\"ds-accion\" href=\"#\">Ver esta vacante</a></article>",
+      "css": ".ds-tarjeta { display: grid; gap: 1.25rem; max-width: 30rem; background: var(--color-tarjeta, #fff); border-radius: 2.25rem; padding: 2rem; box-shadow: 0 1px 2px rgb(27 27 31 / 0.04), 0 14px 32px -22px rgb(27 27 31 / 0.28); font-family: var(--font-sans, 'Figtree Variable', Figtree, system-ui, sans-serif); color: var(--color-tinta, #1b1b1f); } .ds-cargo { margin: 0; font-size: 1.875rem; font-weight: 800; line-height: 1.12; letter-spacing: -0.02em; } .ds-cabeza { display: flex; align-items: center; gap: 1rem; } .ds-anillo { position: relative; display: inline-grid; place-items: center; width: 104px; height: 104px; } .ds-anillo svg { position: absolute; inset: 0; } .ds-anillo b { position: relative; font-size: 31px; font-weight: 900; font-variant-numeric: tabular-nums; } .ds-etiqueta-res { margin: 0; font-size: 1.5rem; font-weight: 900; line-height: 1.2; } .ds-filas { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; } .ds-filas li { display: flex; align-items: center; gap: 0.75rem; background: var(--color-suelo, #fce9dd); border-radius: 1rem; padding: 0.625rem 0.75rem; font-weight: 700; } .ds-marca { display: inline-grid; place-items: center; width: 2.25rem; height: 2.25rem; border-radius: 999px; flex: none; background: var(--color-suelo-2, #f6d9c7); color: var(--color-tinta, #1b1b1f); } .ds-marca-verificado { background: var(--color-verificado-suave, #e4ebfb); color: var(--color-verificado, #1f4fbf); } .ds-accion { display: inline-flex; justify-content: center; align-items: center; min-height: 3.75rem; padding: 0.8rem 2rem; border-radius: 999px; background: var(--color-accion, #096a50); color: #fff; font-weight: 800; font-size: 1.1875rem; text-decoration: none; transition: transform 0.35s cubic-bezier(0.34, 1.25, 0.64, 1); } .ds-accion:hover { background: var(--color-accion-hover, #075540); } .ds-accion:active { transform: scale(0.96); } .ds-accion:focus-visible { outline: 3px solid var(--color-tinta, #1b1b1f); outline-offset: 3px; }"
+    },
+    {
+      "name": "Segmentos de preferencia",
+      "kind": "chip",
+      "refersTo": "segmento",
+      "description": "Radios reales bajo píldoras; elegido en tinta.",
+      "html": "<fieldset class=\"ds-seg\"><legend>Tamaño del texto</legend><label><input type=\"radio\" name=\"ds-t\" checked><span>Normal</span></label><label><input type=\"radio\" name=\"ds-t\"><span>Grande</span></label><label><input type=\"radio\" name=\"ds-t\"><span>Muy grande</span></label></fieldset>",
+      "css": ".ds-seg { border: 0; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; font-family: var(--font-sans, 'Figtree Variable', Figtree, system-ui, sans-serif); } .ds-seg legend { font-weight: 800; font-size: 1.0625rem; margin-bottom: 0.25rem; } .ds-seg label { position: relative; } .ds-seg input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; } .ds-seg span { display: inline-flex; align-items: center; min-height: 2.9rem; padding: 0.5rem 1.05rem; border-radius: 999px; border: 2px solid var(--color-control, #85838c); background: var(--color-tarjeta, #fff); color: var(--color-tinta, #1b1b1f); font-weight: 700; font-size: 1rem; } .ds-seg input:checked + span { background: var(--color-tinta, #1b1b1f); border-color: var(--color-tinta, #1b1b1f); color: #fff; } .ds-seg input:focus-visible + span { outline: 3px solid var(--color-tinta, #1b1b1f); outline-offset: 3px; }"
+    },
+    {
+      "name": "Barra inferior",
+      "kind": "nav",
+      "refersTo": "barra-inferior",
+      "description": "Navegación al alcance del pulgar en celular; pasa a 2 × 2 bajo 22rem de ancho.",
+      "html": "<nav class=\"ds-barra\" aria-label=\"Atajos\"><ul><li><a href=\"#\" aria-current=\"page\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4.5 11 12 4.5l7.5 6.5v8.5h-15ZM9.5 19.5V14h5v5.5\"/></svg><span>Inicio</span></a></li><li><a href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m5 12.5 4.5 4.5L19 7.5\"/></svg><span>Para ti</span></a></li><li><a href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 8h16v11H4zM9 8V5.5h6V8M4 13h16\"/></svg><span>Postulaciones</span></a></li><li><a href=\"#\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 11.5a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM4.5 20.5c.8-4.2 3.8-6.5 7.5-6.5s6.7 2.3 7.5 6.5\"/></svg><span>Perfil</span></a></li></ul></nav>",
+      "css": ".ds-barra { container-type: inline-size; max-width: 24rem; background: var(--color-tarjeta, #fff); border-radius: 1.75rem; box-shadow: 0 10px 30px -12px rgb(27 27 31 / 0.35); font-family: var(--font-sans, 'Figtree Variable', Figtree, system-ui, sans-serif); } .ds-barra ul { list-style: none; margin: 0; padding: 0.375rem; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); } @container (width < 22rem) { .ds-barra ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } } .ds-barra a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.15rem; min-height: 3.75rem; font-size: 0.8125rem; font-weight: 700; line-height: 1.15; text-decoration: none; color: var(--color-tinta-2, #55555e); border-radius: 1.25rem; } .ds-barra a span { text-align: center; overflow-wrap: normal; } .ds-barra a[aria-current=\"page\"] { color: var(--color-accion, #096a50); } .ds-barra a:hover { background: var(--color-suelo, #fce9dd); } .ds-barra a:focus-visible { outline: 3px solid var(--color-tinta, #1b1b1f); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "La app de confianza",
+    "overview": "IncluTrabajo IA se ve y se toca como las apps de consumo que la gente ya usa a diario y en las que confía: un suelo durazno cálido, tarjetas blancas muy redondeadas que flotan con una sombra suave, tinta casi negra y palabras de persona. La densidad es baja a propósito: texto base de 18 px, controles de al menos 52 px de alto, una idea por tarjeta. La misma visual world sirve a la portada (persuadir) y a las pantallas de persona y empresa (operar); lo que cambia es la escala del titular, no el material.\n\nEl color se gana. Solo hay un color fuerte y es el verde de acción: si algo es verde, se puede tocar. Los estados de accesibilidad del puesto tienen su propio vocabulario (sello azul, contorno punteado, reloj ámbar, equis ladrillo) y nunca se confunden con la acción. Todo estado se dice también con ícono y palabra, nunca solo con color.\n\nLa accesibilidad es parte del sistema, no una capa encima: tamaño de texto, contraste, letra de lectura, espaciado y movimiento se eligen en la página y cambian los tokens desde la raíz. El sistema rechaza la bolsa de empleo de tarjetitas grises y el héroe de plantilla con degradado violeta.",
+    "keyCharacteristics": [
+      "Suelo durazno, tarjetas blancas de 28–36 px de radio, botones en píldora.",
+      "Un único verde de acción, reservado a lo accionable.",
+      "Cuatro estados de ajuste con color, ícono y texto propios, ajenos al verde.",
+      "Figtree en todo; Atkinson Hyperlegible Next como letra de lectura elegible.",
+      "Íconos de línea propios en retícula de 24 px, trazo 2,4 con puntas redondas.",
+      "Presión con resorte suave; un solo gesto con scroll en la portada, apagable.",
+      "Cinco modos de preferencia en `html[data-*]`, más `prefers-contrast` y `forced-colors`."
+    ],
+    "rules": [
+      {
+        "name": "The Verde Que Se Toca Rule",
+        "body": "El verde de acción aparece solo en lo que se puede tocar o activar. Un número, un estado, un ícono decorativo o un fondo que no responde nunca es verde.",
+        "section": "colors"
+      },
+      {
+        "name": "The Estado No Es Acción Rule",
+        "body": "Verificado es azul con sello, declarado es contorno punteado gris sobre blanco, ajustable es ámbar con reloj, falta es ladrillo con equis. Ninguno usa el verde de acción, y cada uno lleva su ícono y su palabra.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fila En Tinta Rule",
+        "body": "En las filas de coincidencia, las marcas de sí y en parte usan tinta sobre `suelo-2`; solo «falta» va en ladrillo. Las filas de ajustes usan su estado real (verificado, declarado, ajustable). Una coincidencia no se pinta de verde para parecer buena.",
+        "section": "colors"
+      },
+      {
+        "name": "The Alto Contraste Rule",
+        "body": "En `data-contraste=\"alto\"` todo el sistema pasa a negro y blanco y la acción pasa a amarillo `#ffe500` con texto negro; los estados toman versiones claras sobre fondos muy oscuros. Se cambia en los tokens, no componente por componente.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tamaño En Rem Rule",
+        "body": "Todo tamaño de texto y todo umbral de diseño está en rem, para que `data-texto=\"grande\"` (118,75 %) y `\"enorme\"` (137,5 %) escalen la página entera sin cortes.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sin Mayúsculas Rule",
+        "body": "No hay texto en mayúsculas sostenidas ni con interletrado abierto. Las etiquetas se escriben en tipo de frase.",
+        "section": "typography"
+      },
+      {
+        "name": "The Barra Que No Parte Palabras Rule",
+        "body": "La barra inferior es un contenedor (`container-type: inline-size`) con tantas columnas como destinos (`--n`). Si mide menos de 22rem, por pantalla angosta o texto grande, pasa a 2 × 2 en vez de partir palabras. El umbral está en rem, así que sigue al tamaño de texto que eligió la persona.",
+        "section": "layout"
+      },
+      {
+        "name": "The Borde En Contraste Rule",
+        "body": "En alto contraste las tarjetas y la barra ganan un borde blanco de 2px, y en colores forzados toda tarjeta, opción, barra, estado y marca gana un borde `CanvasText`: la profundidad nunca depende solo de la sombra.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** reservar el verde de acción (`accion`) para botones, enlaces, casillas y el destino actual: lo que se puede tocar.",
+      "**Do** decir cada estado de ajuste con su color, su ícono (sello, contorno punteado, reloj, equis) y su palabra.",
+      "**Do** usar tinta sobre `suelo-2` en las marcas de sí y en parte de las filas de coincidencia, y el estado real en las filas de ajustes.",
+      "**Do** usar el anillo de focus de tinta de 3px a 3px de distancia (amarillo `#ffe500` en alto contraste) en todo lo enfocable.",
+      "**Do** mantener todo control en al menos 3.25rem de alto y todo tamaño y umbral en rem.",
+      "**Do** cambiar colores a través de los tokens `--color-*` para que alto contraste y `prefers-contrast` sigan funcionando.",
+      "**Do** mostrar el estado final de cualquier movimiento cuando no hay JavaScript o se pidió movimiento reducido.",
+      "**Do** dibujar íconos nuevos en la retícula de 24 px con trazo 2,4 y puntas redondas, en línea, con `aria-hidden` y texto al lado."
+    ],
+    "donts": [
+      "**Don't** usar degradados de fondo ni texto con degradado.",
+      "**Don't** poner etiquetas de antetítulo (eyebrows o kickers) sobre los titulares, ni texto en mayúsculas con interletrado abierto.",
+      "**Don't** usar bordes laterales de color como acento en tarjetas, filas o avisos.",
+      "**Don't** pintar de verde un estado, un puntaje o una coincidencia buena.",
+      "**Don't** usar sombras duras desplazadas; las sombras son difusas y teñidas con tinta.",
+      "**Don't** comunicar un estado solo con color.",
+      "**Don't** usar íconos de fuente, emojis o glifos como íconos."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Línea de ruta</title>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0d1b2a;--soft:#4b5866;--line:#e4e8ec;--paper:#fff;--c:#0e9f6e;--a:#2563eb;--u:#f08a24;--w:#c2185b}
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:var(--paper);color:var(--ink);font-family:Geist,system-ui,sans-serif}
+header{height:80px;display:flex;align-items:center;padding:0 64px;gap:40px}
+.brand{font-weight:800;font-size:22px;display:flex;align-items:center;gap:12px}
+.brand i{width:28px;height:28px;border-radius:50%;border:6px solid var(--ink)}
+nav{display:flex;gap:32px;font-size:17px;font-weight:500;color:var(--soft)}
+.act{margin-left:auto;display:flex;gap:12px;font-size:17px;font-weight:700}
+.act span{padding:10px 18px;border-radius:999px}
+.act .o{border:2px solid var(--ink)}
+.hero{display:grid;grid-template-columns:1fr 520px;padding:56px 64px 0;gap:64px}
+h1{font-size:92px;line-height:.98;font-weight:800;letter-spacing:-.045em}
+.lead{font-size:22px;line-height:1.5;color:var(--soft);max-width:620px;margin-top:28px}
+.doors{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:40px;max-width:700px}
+.door{border-radius:20px;padding:22px 24px;display:flex;flex-direction:column;gap:8px}
+.door b{font-size:26px;font-weight:800}
+.door span{font-size:17px;line-height:1.4}
+.d1{background:var(--ink);color:#fff}
+.d2{border:2px solid var(--ink)}
+.card{border:2px solid var(--line);border-radius:24px;padding:28px;margin-top:8px}
+.card .t{font-size:15px;color:var(--soft);font-weight:500}
+.card h2{font-size:30px;font-weight:800;letter-spacing:-.02em;margin-top:6px}
+.card .s{display:flex;align-items:baseline;gap:10px;margin-top:18px}
+.card .s b{font-size:64px;font-weight:800;letter-spacing:-.04em}
+.card .s span{font-size:18px;font-weight:700;color:#0b6e4d}
+.mini{margin-top:20px}
+.st{display:grid;grid-template-columns:28px 1fr auto;align-items:center;gap:14px;padding:10px 0;position:relative}
+.st .dot{width:24px;height:24px;border-radius:50%;border:5px solid currentColor;background:currentColor;z-index:1}
+.st .dot.h{background:#fff}
+.st span{font-size:18px;font-weight:500}
+.st em{font-style:normal;font-size:16px;font-weight:700;color:var(--ink)}
+.mini:before{content:"";position:absolute}
+.rail{position:absolute;left:11px;top:22px;bottom:22px;width:5px;background:linear-gradient(var(--c) 0 25%,var(--a) 25% 50%,var(--u) 50% 75%,var(--w) 75%)}
+.route{position:absolute;left:64px;right:64px;bottom:64px;height:76px}
+.route .l{position:absolute;left:0;right:0;top:20px;height:8px;border-radius:4px;background:var(--line)}
+.route .f{position:absolute;left:0;width:44%;top:20px;height:8px;border-radius:4px;background:var(--ink)}
+.route .p{position:absolute;top:8px;width:32px;height:32px;border-radius:50%;border:7px solid var(--ink);background:#fff}
+.route .lab{position:absolute;top:48px;font-size:17px;font-weight:700;transform:translateX(-30%)}
+.demo{position:absolute;right:64px;top:96px;font-size:14px;color:var(--soft)}
+</style></head><body>
+<header><div class="brand"><i></i>IncluTrabajo IA</div>
+<nav><a>Vacantes</a><a>Cómo verificamos</a><a>Para empresas</a><a>Accesibilidad</a></nav>
+<div class="act"><span class="o">Entrar</span></div></header>
+<div class="hero">
+  <div>
+    <h1>Tu talento,<br>en el puesto<br>que te sirve.</h1>
+    <p class="lead">Cruzamos lo que sabes hacer con la accesibilidad real del puesto, verificada en sitio, y te explicamos cada coincidencia.</p>
+    <div class="doors">
+      <div class="door d1"><b>Busco empleo</b><span>Gratis, siempre. Funciona con lector de pantalla.</span></div>
+      <div class="door d2"><b>Contrato talento</b><span>Cumple la cuota de la Ley 2466 con buenos emparejamientos.</span></div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="t">Ejemplo · Ana Torres</div>
+    <h2>Auxiliar administrativo</h2>
+    <div class="s"><b>93</b><span>encaja mucho</span></div>
+    <div class="mini" style="position:relative">
+      <div class="rail"></div>
+      <div class="st" style="color:var(--c)"><i class="dot"></i><span style="color:var(--ink)">Competencias 2 de 2</span><em>Sí</em></div>
+      <div class="st" style="color:var(--a)"><i class="dot"></i><span style="color:var(--ink)">Lector de pantalla verificado</span><em>Sí</em></div>
+      <div class="st" style="color:var(--u)"><i class="dot"></i><span style="color:var(--ink)">Cartagena, híbrido</span><em>Sí</em></div>
+      <div class="st" style="color:var(--w)"><i class="dot h"></i><span style="color:var(--ink)">Horario flexible declarado</span><em>En parte</em></div>
+    </div>
+  </div>
+</div>
+<div class="route"><div class="l"></div><div class="f"></div>
+  <span class="p" style="left:0"></span><span class="lab" style="left:0">Perfil</span>
+  <span class="p" style="left:22%"></span><span class="lab" style="left:22%">Ajustes</span>
+  <span class="p" style="left:44%"></span><span class="lab" style="left:44%">Coincidencia</span>
+  <span class="p" style="left:66%;border-color:#c9d1d9"></span><span class="lab" style="left:66%">Postulación</span>
+  <span class="p" style="left:calc(100% - 32px);border-color:#c9d1d9"></span><span class="lab" style="left:calc(100% - 60px)">6 meses</span>
+</div>
+<div class="demo">Datos de demostración</div>
+</body></html>

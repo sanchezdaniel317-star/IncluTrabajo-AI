@@ -1,0 +1,41 @@
+[Unit]
+Description=IncluTrabajo IA (web)
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+User=inclutrabajo
+Group=inclutrabajo
+WorkingDirectory=/opt/inclutrabajo/app
+# Secretos fuera del repo: DATABASE_URL, SESSION_SECRET.
+EnvironmentFile=/etc/inclutrabajo/inclutrabajo.env
+Environment=NODE_ENV=production
+Environment=PORT=3000
+Environment=HOST=127.0.0.1
+# Node propio de este servicio, para no tocar el que usa Frutii.
+ExecStart=/opt/inclutrabajo/node/bin/node node_modules/@react-router/serve/bin.js ./build/server/index.js
+Restart=always
+RestartSec=5
+
+# Convive con Frutii y EpicCord: prioridad media y techo de recursos.
+Nice=5
+CPUWeight=70
+MemoryMax=768M
+
+# Aislamiento: no escribe en disco (la base es Postgres) y solo habla con la propia máquina.
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+InaccessiblePaths=-/opt/frutii -/etc/frutii -/opt/epiccord -/etc/epiccord -/opt/inclutrabajo/.ssh
+IPAddressAllow=localhost
+IPAddressDeny=any
+
+[Install]
+WantedBy=multi-user.target

@@ -1,21 +1,31 @@
 # Entorno y secretos
 .env
-backend/.env
-*.env.local
+.env.*
+!.env.example
 
-# Python
+# Dependencias y compilados
+node_modules/
+build/
+.react-router/
+
+# Base local de desarrollo (PGlite)
+.data/
+
+# Pruebas
+test-results/
+playwright-report/
+*.log
+
+# Impeccable: estado local
+.impeccable/config.local.json
+.impeccable/review/
+
+# Legacy (Python)
 __pycache__/
 *.py[cod]
 .venv/
 venv/
 .pytest_cache/
-
-# Node
-node_modules/
-frontend/node_modules/
-frontend/dist/
-
-# Pruebas y temporales
-test-results/
-playwright-report/
-*.log
+legacy/frontend/node_modules/
+legacy/frontend/dist/
+legacy/backend/.env

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Folio verificado</title>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#13212e;--soft:#4d5b68;--g:#0f5b4a;--gw:#e7efec;--r:#b4472b;--line:#d7dfe4;--paper:#fff}
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:var(--paper);color:var(--ink);font-family:"Public Sans",system-ui,sans-serif}
+header{height:80px;border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 64px;gap:40px}
+.brand{font-weight:900;font-size:22px}
+nav{display:flex;gap:32px;font-size:17px;color:var(--soft)}
+.in{margin-left:auto;font-size:17px;font-weight:800;border:2px solid var(--ink);padding:10px 18px;border-radius:8px}
+.wrap{display:grid;grid-template-columns:1fr 600px;gap:72px;padding:72px 64px 0}
+h1{font-size:84px;line-height:1;font-weight:900;letter-spacing:-.04em}
+.lead{font-size:22px;line-height:1.5;color:var(--soft);margin-top:28px;max-width:600px}
+.btns{display:flex;gap:16px;margin-top:40px}
+.b{font-size:21px;font-weight:800;padding:18px 28px;border-radius:10px}
+.b1{background:var(--g);color:#fff}
+.b2{border:2px solid var(--ink)}
+.note{font-size:17px;color:var(--soft);margin-top:20px}
+.sheet{position:relative;background:#fff;border:1px solid var(--line);border-radius:6px;padding:36px 40px;box-shadow:0 24px 48px -24px rgba(19,33,46,.25);overflow:hidden}
+.guil{position:absolute;inset:0;opacity:.5;pointer-events:none}
+.folio{display:flex;justify-content:space-between;font-size:15px;color:var(--soft);font-variant-numeric:tabular-nums;position:relative}
+.sheet h2{font-size:34px;font-weight:900;letter-spacing:-.02em;margin-top:18px;position:relative}
+.sheet .emp{font-size:18px;color:var(--soft);margin-top:6px;position:relative}
+.it{display:grid;grid-template-columns:1fr 150px;align-items:center;padding:16px 0;border-top:1px solid var(--line);position:relative}
+.it b{font-size:20px;display:block}
+.it span{font-size:16px;color:var(--soft)}
+.seal{justify-self:end;width:132px;height:52px;border:3px solid var(--g);color:var(--g);border-radius:8px;display:grid;place-items:center;font-weight:900;font-size:15px;letter-spacing:.06em;transform:rotate(-4deg);line-height:1.1;text-align:center;background:var(--gw)}
+.seal small{display:block;font-size:11px;letter-spacing:0;font-weight:700}
+.dec{justify-self:end;font-size:15px;font-weight:700;color:var(--soft);border:2px dashed var(--line);padding:10px 14px;border-radius:8px}
+.items{margin-top:24px}
+.demo{position:absolute;right:64px;bottom:24px;font-size:14px;color:var(--soft)}
+</style></head><body>
+<header><div class="brand">IncluTrabajo IA</div><nav><a>Vacantes</a><a>Cómo verificamos</a><a>Empresas</a><a>Accesibilidad</a></nav><span class="in">Entrar</span></header>
+<div class="wrap">
+  <div>
+    <h1>Lo que el puesto ofrece, comprobado.</h1>
+    <p class="lead">Ingeniería civil y biomédica visitan cada puesto. Ves qué está verificado, qué solo lo dice la empresa y por qué una vacante encaja contigo.</p>
+    <div class="btns"><span class="b b1">Busco empleo</span><span class="b b2">Contrato talento</span></div>
+    <p class="note">Gratis para las personas. Cumple la cuota de la Ley 2466 con evidencia.</p>
+  </div>
+  <div class="sheet">
+    <svg class="guil" viewBox="0 0 600 520" preserveAspectRatio="none"><g fill="none" stroke="#cfe0d9" stroke-width="1">
+      <path d="M0 80 C150 20 300 140 600 60"/><path d="M0 96 C150 36 300 156 600 76"/><path d="M0 112 C150 52 300 172 600 92"/><path d="M0 128 C150 68 300 188 600 108"/></g></svg>
+    <div class="folio"><span>Folio 0047 · Vacante TI-2026-012</span><span>Cartagena</span></div>
+    <h2>Auxiliar administrativo</h2>
+    <p class="emp">TechIncluye S.A.S. · Híbrido · $1.900.000</p>
+    <div class="items">
+      <div class="it"><div><b>Software compatible con lector de pantalla</b><span>Prueba con NVDA en el puesto</span></div><span class="seal">VERIFICADO<small>14-oct-2026</small></span></div>
+      <div class="it"><div><b>Acceso sin escalones</b><span>Rampa medida: 7,8 % de pendiente</span></div><span class="seal">VERIFICADO<small>14-oct-2026</small></span></div>
+      <div class="it"><div><b>Horario flexible</b><span>Según la empresa</span></div><span class="dec">Declarado</span></div>
+    </div>
+  </div>
+</div>
+<div class="demo">Datos de demostración</div>
+</body></html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Estándar del sector</title>
+<style>
+:root{--ink:#1b1f24;--soft:#5b6470;--line:#e1e6ec;--bg:#f3f6f9;--blue:#0a66c2;--green:#057642}
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{height:64px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 40px;gap:32px}
+.brand{font-weight:800;font-size:22px;color:var(--blue)}
+.search{flex:0 0 420px;height:40px;border:1px solid var(--line);border-radius:6px;background:var(--bg);padding:0 14px;display:flex;align-items:center;color:var(--soft);font-size:15px}
+nav{margin-left:auto;display:flex;gap:28px;font-size:15px;color:var(--soft)}
+nav a.on{color:var(--ink);font-weight:700}
+main{display:grid;grid-template-columns:260px 460px 1fr;gap:24px;padding:24px 40px}
+.box{background:#fff;border:1px solid var(--line);border-radius:8px;padding:20px}
+.box h3{font-size:16px;margin-bottom:12px}
+.f{font-size:15px;color:var(--soft);padding:7px 0}
+.job{background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px;margin-bottom:12px}
+.job.sel{border:2px solid var(--blue)}
+.job b{font-size:17px;display:block}
+.job span{font-size:14px;color:var(--soft)}
+.tag{display:inline-block;font-size:13px;background:#e8f3ec;color:var(--green);border-radius:999px;padding:3px 10px;margin:10px 6px 0 0}
+.det h1{font-size:28px}
+.det .e{font-size:16px;color:var(--soft);margin-top:6px}
+.det .m{margin-top:18px;font-size:15px;line-height:1.6;color:var(--ink)}
+.btn{display:inline-block;margin-top:20px;background:var(--blue);color:#fff;font-weight:700;padding:12px 24px;border-radius:999px;font-size:16px}
+.pct{font-size:15px;font-weight:700;color:var(--green);margin-top:12px}
+</style></head><body>
+<header><div class="brand">IncluTrabajo IA</div><div class="search">Buscar cargo, empresa o ciudad</div>
+  <nav><a>Inicio</a><a class="on">Empleos</a><a>Postulaciones</a><a>Perfil</a></nav></header>
+<main>
+  <div class="box"><h3>Filtros</h3><div class="f">Ciudad: Cartagena</div><div class="f">Modalidad: cualquiera</div><div class="f">Jornada: completa</div><div class="f">Ajustes: lector de pantalla</div></div>
+  <div>
+    <div class="job sel"><b>Auxiliar administrativo</b><span>TechIncluye S.A.S. · Cartagena</span><br><span class="tag">93 % compatible</span><span class="tag">Lector de pantalla</span></div>
+    <div class="job"><b>Desarrollador junior frontend</b><span>TechIncluye S.A.S. · Remoto</span><br><span class="tag">61 % compatible</span><span class="tag">Teletrabajo</span></div>
+    <div class="job"><b>Asesor de atención al cliente</b><span>Comercial del Caribe · Barranquilla</span><br><span class="tag">52 % compatible</span></div>
+  </div>
+  <div class="box det"><h1>Auxiliar administrativo</h1><div class="e">TechIncluye S.A.S. · Cartagena · Híbrido · $1.900.000</div>
+    <div class="pct">93 % compatible con tu perfil</div>
+    <p class="m">Apoyo en gestión de documentos, atención telefónica y cruce de datos en Excel. Puesto con estación adaptada y software compatible con lector de pantalla.</p>
+    <span class="btn">Postularme</span></div>
+</main>
+</body></html>

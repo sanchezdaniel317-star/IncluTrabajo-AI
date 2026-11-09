@@ -1,0 +1,11 @@
+{
+  "name": "IncluTrabajo IA",
+  "short_name": "IncluTrabajo",
+  "description": "Empleo con la accesibilidad que necesitas, verificada en el puesto.",
+  "lang": "es-CO",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fce9dd",
+  "theme_color": "#fce9dd",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

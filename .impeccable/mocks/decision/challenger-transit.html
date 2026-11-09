@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Red de oportunidades</title>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--night:#0b1f3a;--night2:#132b4f;--porc:#f4f2ec;--red:#e03c31;--cob:#2f6fe4;--amb:#f2a900;--grn:#1fa35c;--mist:#a9b8cc}
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:var(--night);color:var(--porc);font-family:"Hanken Grotesk",system-ui,sans-serif}
+header{position:absolute;top:0;left:0;right:0;height:84px;display:flex;align-items:center;padding:0 56px;gap:40px;z-index:3}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900;font-size:23px}
+.brand i{width:26px;height:26px;border-radius:50%;border:6px solid var(--porc);background:var(--night)}
+nav{display:flex;gap:30px;font-size:17px;font-weight:600;color:var(--mist)}
+.in{margin-left:auto;font-size:17px;font-weight:800;border:2px solid var(--porc);border-radius:999px;padding:10px 20px}
+.copy{position:absolute;left:56px;top:150px;width:560px;z-index:2}
+h1{font-size:86px;line-height:.95;font-weight:900;letter-spacing:-.045em}
+.lead{font-size:21px;line-height:1.5;color:#d5dde8;margin-top:26px}
+.lines{display:flex;flex-direction:column;gap:14px;margin-top:36px}
+.ln{display:flex;align-items:center;gap:16px;background:var(--night2);border-radius:999px;padding:12px 26px 12px 12px;width:470px}
+.ln .b{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:19px;color:var(--night)}
+.ln b{font-size:23px;font-weight:800}
+.ln span{font-size:16px;color:var(--mist);margin-left:auto}
+svg.map{position:absolute;left:0;top:0;width:1440px;height:900px;z-index:1}
+.st{position:absolute;z-index:2}
+.st b{display:block;font-size:19px;font-weight:800}
+.st span{font-size:15px;color:var(--mist)}
+.st em{font-style:normal;font-size:30px;font-weight:900;letter-spacing:-.03em;color:var(--porc);margin-right:8px}
+.you{position:absolute;left:658px;top:470px;z-index:2;font-weight:900;font-size:22px}
+.legend{position:absolute;right:56px;bottom:34px;display:flex;gap:22px;font-size:15px;color:var(--mist);z-index:2}
+.legend i{display:inline-block;width:22px;height:6px;border-radius:3px;vertical-align:middle;margin-right:8px}
+.demo{position:absolute;left:56px;bottom:34px;font-size:14px;color:var(--mist)}
+</style></head><body>
+<header><div class="brand"><i></i>IncluTrabajo IA</div><nav><a>Vacantes</a><a>Cómo verificamos</a><a>Accesibilidad</a></nav><span class="in">Entrar</span></header>
+<div class="copy">
+  <h1>Tu talento,<br>conectado con<br>el puesto justo.</h1>
+  <p class="lead">Cruzamos tus competencias y los ajustes que necesitas con la accesibilidad real de cada puesto, verificada en sitio.</p>
+  <div class="lines">
+    <div class="ln"><span class="b" style="background:var(--grn)">P</span><b>Busco empleo</b><span>gratis, siempre</span></div>
+    <div class="ln"><span class="b" style="background:var(--amb)">E</span><b>Contrato talento</b><span>cumple la Ley 2466</span></div>
+  </div>
+</div>
+<svg class="map" viewBox="0 0 1440 900" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M700 500 H860 L960 400 H1180" stroke="#1fa35c" stroke-width="14"/>
+  <path d="M700 500 H900 L1000 300 H1220" stroke="#2f6fe4" stroke-width="14" transform="translate(0 0)"/>
+  <path d="M700 500 V610 L800 710 H1160" stroke="#f2a900" stroke-width="14"/>
+  <path d="M700 500 H880 L980 600 H1200" stroke="#e03c31" stroke-width="14" opacity=".55"/>
+  <circle cx="700" cy="500" r="34" fill="#f4f2ec" stroke="#0b1f3a" stroke-width="8"/>
+  <circle cx="1180" cy="400" r="16" fill="#f4f2ec" stroke="#0b1f3a" stroke-width="6"/>
+  <circle cx="1220" cy="300" r="16" fill="#f4f2ec" stroke="#0b1f3a" stroke-width="6"/>
+  <circle cx="1160" cy="710" r="16" fill="#f4f2ec" stroke="#0b1f3a" stroke-width="6"/>
+  <circle cx="1200" cy="600" r="16" fill="#132b4f" stroke="#f4f2ec" stroke-width="5" stroke-dasharray="6 6"/>
+  <g transform="translate(1238 282)"><rect width="30" height="30" rx="6" fill="#2f6fe4"/><path d="M15 7v8h6l3 6M15 11h5M11 13a6 6 0 1 0 8 8" stroke="#fff" stroke-width="2.4"/></g>
+  <g transform="translate(1198 382)"><rect width="30" height="30" rx="6" fill="#2f6fe4"/><path d="M15 7v8h6l3 6M15 11h5M11 13a6 6 0 1 0 8 8" stroke="#fff" stroke-width="2.4"/></g>
+</svg>
+<div class="you">Tú</div>
+<div class="st" style="left:1278px;top:282px"><b><em>93</em>Auxiliar administrativo</b><span>TechIncluye · Cartagena</span></div>
+<div class="st" style="left:1238px;top:384px"><b><em>78</em>Analista de datos</b><span>Remoto</span></div>
+<div class="st" style="left:1218px;top:584px"><b><em>52</em>Asesor de servicio</b><span>falta un ajuste esencial</span></div>
+<div class="st" style="left:1180px;top:694px"><b><em>61</em>Dev. junior frontend</b><span>te falta inglés</span></div>
+<div class="legend"><span><i style="background:var(--grn)"></i>Competencias</span><span><i style="background:var(--cob)"></i>Accesibilidad</span><span><i style="background:var(--amb)"></i>Lugar</span><span><i style="background:var(--red)"></i>Salario</span></div>
+<div class="demo">Datos de demostración</div>
+</body></html>

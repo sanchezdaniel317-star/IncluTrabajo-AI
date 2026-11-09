@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Ficha de lectura fácil</title>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#111418;--soft:#4a5158;--line:#d9dde1;--paper:#ffffff;--wash:#f3f5f4;--green:#1f6f43;--greenw:#e3f1e8;--yellow:#f2c200;--yelw:#fff6cc;--blue:#1d4fd7;--red:#b3261e;--redw:#fbe9e7}
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:var(--paper);color:var(--ink);font-family:"Atkinson Hyperlegible Next",system-ui,sans-serif}
+header{height:72px;border-bottom:2px solid var(--ink);display:flex;align-items:center;padding:0 48px;gap:40px}
+.brand{font-weight:800;font-size:24px;letter-spacing:-.01em}
+.brand b{color:var(--green)}
+nav{display:flex;gap:8px;font-size:19px;font-weight:600}
+nav a{padding:10px 16px;border-radius:6px;color:var(--ink);text-decoration:none}
+nav a.on{background:var(--ink);color:#fff}
+.who{margin-left:auto;font-size:19px}
+main{display:grid;grid-template-columns:440px 1fr;height:828px}
+aside{border-right:2px solid var(--line);padding:32px 32px 0 48px;overflow:hidden}
+h1{font-size:40px;line-height:1.15;font-weight:800;letter-spacing:-.02em}
+.lead{font-size:20px;line-height:1.55;color:var(--soft);margin-top:12px}
+.filters{display:flex;gap:8px;margin:24px 0 16px}
+.chip{font-size:18px;border:2px solid var(--ink);border-radius:6px;padding:8px 14px;font-weight:600}
+.chip.on{background:var(--ink);color:#fff}
+.item{border-top:2px solid var(--line);padding:18px 0;display:grid;grid-template-columns:1fr auto;gap:4px 16px}
+.item.sel{border-top:4px solid var(--ink)}
+.item h2{font-size:22px;font-weight:800}
+.item p{font-size:18px;color:var(--soft)}
+.fit{grid-row:span 2;align-self:center;font-size:18px;font-weight:800;padding:6px 12px;border-radius:6px}
+.fit.alta{background:var(--greenw);color:var(--green)}
+.fit.media{background:var(--yelw);color:#6b5200}
+.fit.no{background:var(--redw);color:var(--red)}
+section.ficha{padding:32px 64px 0 56px}
+.top{display:flex;align-items:flex-start;gap:32px}
+.top h2{font-size:40px;font-weight:800;line-height:1.1;letter-spacing:-.02em}
+.top .emp{font-size:20px;color:var(--soft);margin-top:8px}
+.score{margin-left:auto;text-align:right}
+.score .n{font-size:64px;font-weight:800;line-height:1;color:var(--green)}
+.score .l{font-size:20px;font-weight:600}
+.rows{margin-top:28px;border-top:2px solid var(--ink)}
+.row{display:grid;grid-template-columns:72px 1fr 150px;align-items:center;gap:24px;padding:16px 0;border-bottom:2px solid var(--line)}
+.pic{width:64px;height:64px;border:3px solid var(--ink);border-radius:10px;display:grid;place-items:center;background:#fff}
+.pic svg{width:40px;height:40px;stroke:var(--ink);stroke-width:2.6;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.row .t{font-size:24px;line-height:1.4}
+.row .t small{display:block;font-size:18px;color:var(--soft);margin-top:2px}
+.mark{justify-self:end;font-size:20px;font-weight:800;display:flex;align-items:center;gap:10px}
+.dot{width:28px;height:28px;border-radius:50%;border:3px solid var(--ink)}
+.si .dot{background:var(--green);border-color:var(--green)}
+.parte .dot{background:linear-gradient(90deg,var(--yellow) 50%,#fff 50%)}
+.si{color:var(--green)}.parte{color:#6b5200}
+.cta{display:flex;gap:16px;margin-top:28px}
+.btn{font-size:21px;font-weight:800;padding:16px 28px;border-radius:8px;border:3px solid var(--ink)}
+.btn.p{background:var(--green);border-color:var(--green);color:#fff}
+.demo{position:absolute;right:48px;bottom:20px;font-size:16px;color:var(--soft)}
+</style></head><body>
+<header>
+  <div class="brand">Inclu<b>Trabajo</b> IA</div>
+  <nav><a>Inicio</a><a class="on">Vacantes para ti</a><a>Mis postulaciones</a><a>Mi perfil</a><a>Avisos (2)</a></nav>
+  <div class="who">Ana Torres</div>
+</header>
+<main>
+  <aside>
+    <h1>Vacantes que encajan contigo</h1>
+    <p class="lead">Te explicamos por qué cada una encaja y qué falta.</p>
+    <div class="filters"><span class="chip on">Todas (3)</span><span class="chip">Cartagena</span><span class="chip">Remoto</span></div>
+    <div class="item sel"><h2>Auxiliar administrativo</h2><span class="fit alta">Encaja mucho</span><p>TechIncluye · Cartagena · Híbrido</p></div>
+    <div class="item"><h2>Asesor de atención al cliente</h2><span class="fit no">Falta un ajuste</span><p>Comercial del Caribe · Barranquilla</p></div>
+    <div class="item"><h2>Desarrollador junior frontend</h2><span class="fit media">Encaja en parte</span><p>TechIncluye · Remoto</p></div>
+  </aside>
+  <section class="ficha">
+    <div class="top">
+      <div><h2>Auxiliar administrativo</h2><p class="emp">TechIncluye S.A.S. · Cartagena · Híbrido · $1.900.000 al mes</p></div>
+      <div class="score"><div class="n">93</div><div class="l">de 100 · encaja mucho</div></div>
+    </div>
+    <div class="rows">
+      <div class="row"><div class="pic"><svg viewBox="0 0 40 40"><rect x="6" y="10" width="28" height="22" rx="3"/><path d="M14 10V7h12v3M6 19h28"/></svg></div>
+        <div class="t">Sabes lo que pide el puesto.<small>Atención al cliente y Excel: 2 de 2.</small></div><div class="mark si"><span class="dot"></span>Sí</div></div>
+      <div class="row"><div class="pic"><svg viewBox="0 0 40 40"><rect x="5" y="8" width="30" height="20" rx="2"/><path d="M14 34h12M20 28v6M11 15h10M11 20h6"/><circle cx="28" cy="17" r="3"/></svg></div>
+        <div class="t">El puesto tiene lector de pantalla.<small>Verificado en visita técnica el 14-oct-2026.</small></div><div class="mark si"><span class="dot"></span>Sí</div></div>
+      <div class="row"><div class="pic"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="14"/><path d="M20 11v9l6 4"/></svg></div>
+        <div class="t">Ofrecen horario flexible.<small>Lo dice la empresa; aún sin verificar.</small></div><div class="mark parte"><span class="dot"></span>En parte</div></div>
+      <div class="row"><div class="pic"><svg viewBox="0 0 40 40"><path d="M20 35s11-10 11-19a11 11 0 0 0-22 0c0 9 11 19 11 19z"/><circle cx="20" cy="16" r="4"/></svg></div>
+        <div class="t">Queda en tu ciudad y es híbrido.<small>Cartagena, como prefieres.</small></div><div class="mark si"><span class="dot"></span>Sí</div></div>
+    </div>
+    <div class="cta"><span class="btn p">Postularme</span><span class="btn">Escuchar la explicación</span></div>
+  </section>
+</main>
+<div class="demo">Datos de demostración</div>
+</body></html>

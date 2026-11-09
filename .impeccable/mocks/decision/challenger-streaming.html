@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Cartelera de vacantes</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#111316;--ink:#f5f5f2;--dim:#b4b6bb;--red:#ff4d2e;--blue:#1a4fd6;--yel:#ffc233}
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:var(--ground);color:var(--ink);font-family:"Bricolage Grotesque",system-ui,sans-serif}
+header{position:absolute;top:0;left:0;right:0;height:80px;display:flex;align-items:center;padding:0 56px;gap:36px;z-index:2}
+.brand{font-weight:800;font-size:23px}
+nav{display:flex;gap:28px;font-size:17px;color:var(--dim)}
+.in{margin-left:auto;font-weight:800;font-size:17px;background:var(--ink);color:var(--ground);padding:10px 20px;border-radius:8px}
+.feat{height:500px;background:var(--blue);position:relative;padding:150px 56px 0;overflow:hidden}
+.poster{position:absolute;right:56px;top:110px;width:520px;height:340px;background:var(--yel);color:var(--ground);border-radius:16px;padding:28px;overflow:hidden}
+.poster b{font-size:74px;line-height:.9;font-weight:800;letter-spacing:-.04em;display:block}
+.poster span{position:absolute;left:28px;bottom:24px;font-size:18px;font-weight:700}
+.poster i{position:absolute;right:24px;bottom:20px;width:56px;height:56px;border-radius:12px;background:var(--ground);display:grid;place-items:center}
+.poster svg{width:32px;height:32px;stroke:var(--yel);stroke-width:2.6;fill:none;stroke-linecap:round}
+.feat .k{font-size:20px;font-weight:700}
+.feat h1{font-size:88px;line-height:.95;font-weight:800;letter-spacing:-.045em;margin-top:10px;max-width:700px}
+.feat p{font-size:21px;margin-top:18px;max-width:600px}
+.btns{display:flex;gap:14px;margin-top:26px}
+.btns span{font-size:20px;font-weight:800;padding:15px 26px;border-radius:10px;background:var(--ink);color:var(--ground)}
+.btns span+span{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.row{padding:28px 56px 0}
+.row h2{font-size:24px;font-weight:800}
+.tiles{display:flex;gap:16px;margin-top:14px}
+.tile{flex:0 0 250px;height:220px;border-radius:14px;padding:18px;position:relative;color:var(--ground)}
+.tile b{font-size:30px;line-height:.95;font-weight:800;letter-spacing:-.03em;display:block}
+.tile span{position:absolute;left:18px;bottom:16px;font-size:15px;font-weight:700}
+.tile.f{flex-basis:330px;outline:4px solid var(--ink);outline-offset:4px}
+.demo{position:absolute;right:56px;bottom:16px;font-size:14px;color:var(--dim)}
+</style></head><body>
+<header><div class="brand">IncluTrabajo IA</div><nav><a>Vacantes</a><a>Cómo verificamos</a><a>Accesibilidad</a></nav><span class="in">Entrar</span></header>
+<section class="feat">
+  <div class="k">Encaja 93 de 100 contigo</div>
+  <h1>Auxiliar administrativo</h1>
+  <p>TechIncluye S.A.S. · Cartagena · Híbrido. Lector de pantalla verificado en visita técnica.</p>
+  <div class="btns"><span>Postularme</span><span>Ver por qué encaja</span></div>
+  <div class="poster"><b>Tu talento tiene puesto.</b><span>Busco empleo · Contrato talento</span><i><svg viewBox="0 0 32 32"><circle cx="16" cy="6" r="2.5"/><path d="M16 10v8h7l3 7M16 14h6M12 16a7 7 0 1 0 9 9"/></svg></i></div>
+</section>
+<div class="row"><h2>Verificadas para ti</h2>
+  <div class="tiles">
+    <div class="tile f" style="background:#ff8a6b"><b>Analista de datos</b><span>Remoto · encaja 78</span></div>
+    <div class="tile" style="background:#8fd3ff"><b>Recepción bilingüe</b><span>Cartagena · 74</span></div>
+    <div class="tile" style="background:#c6f28b"><b>Soporte técnico</b><span>Híbrido · 70</span></div>
+    <div class="tile" style="background:#ffd36b"><b>Dev. junior frontend</b><span>Remoto · 61</span></div>
+    <div class="tile" style="background:#e3c8ff"><b>Asistente contable</b><span>Barranquilla · 58</span></div>
+  </div></div>
+<div class="demo">Datos de demostración</div>
+</body></html>

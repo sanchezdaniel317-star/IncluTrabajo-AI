@@ -1,0 +1,50 @@
+{
+  "name": "inclutrabajo-ia",
+  "private": true,
+  "version": "2.0.0",
+  "description": "IncluTrabajo IA: vinculación laboral inclusiva con IA explicable y accesibilidad verificada del puesto.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "react-router dev",
+    "build": "react-router build",
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc",
+    "db:migrate": "node scripts/migrate.mjs",
+    "db:seed": "node scripts/seed.mjs",
+    "db:reset-demo": "node scripts/seed.mjs --reset",
+    "test": "vitest run",
+    "test:e2e": "react-router build && playwright test"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.15",
+    "@fontsource-variable/atkinson-hyperlegible-next": "5.3.0",
+    "@fontsource-variable/figtree": "5.3.0",
+    "@react-router/node": "7.18.5",
+    "@react-router/serve": "7.18.5",
+    "argon2": "0.45.2",
+    "gsap": "3.15.1",
+    "isbot": "5.2.2",
+    "pg": "8.23.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router": "7.18.5",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.65.0",
+    "@react-router/dev": "7.18.5",
+    "@tailwindcss/vite": "4.3.5",
+    "@types/node": "22.20.5",
+    "@types/pg": "8.23.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "tailwindcss": "4.3.5",
+    "typescript": "5.9.3",
+    "vite": "7.3.7",
+    "vitest": "4.1.12"
+  }
+}

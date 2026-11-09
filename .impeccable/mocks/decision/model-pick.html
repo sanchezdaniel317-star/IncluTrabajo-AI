@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Señalética accesible</title>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#0b3b8c;--blue2:#0a2f70;--ink:#101820;--paper:#fff;--line:#d5dbe4;--yellow:#ffd100;--green:#2e7d32;--soft:#47505c}
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:var(--paper);color:var(--ink);font-family:Overpass,system-ui,sans-serif}
+header{background:var(--blue);color:#fff;height:84px;display:flex;align-items:center;padding:0 48px;gap:48px}
+.brand{font-size:26px;font-weight:800;display:flex;align-items:center;gap:14px}
+.isa{width:44px;height:44px;background:#fff;border-radius:6px;display:grid;place-items:center}
+.isa svg{width:30px;height:30px;stroke:var(--blue);stroke-width:2.8;fill:none;stroke-linecap:round}
+nav{display:flex;gap:4px;font-size:19px;font-weight:600}
+nav a{padding:12px 16px;color:#fff;border-bottom:4px solid transparent}
+nav a.on{border-bottom-color:var(--yellow)}
+.band{background:var(--yellow);height:64px;display:flex;align-items:center;padding:0 48px;gap:20px;font-size:22px;font-weight:800}
+.band .arrow{width:40px;height:40px;background:var(--ink);border-radius:4px;display:grid;place-items:center}
+.band .arrow svg{width:24px;height:24px;stroke:var(--yellow);stroke-width:3;fill:none}
+main{padding:36px 48px 0}
+h1{font-size:44px;font-weight:800;letter-spacing:-.01em}
+.sub{font-size:20px;color:var(--soft);margin-top:8px}
+table{width:100%;border-collapse:collapse;margin-top:28px}
+th{font-size:16px;text-align:left;font-weight:800;padding:0 16px 12px 0;border-bottom:3px solid var(--ink)}
+td{padding:20px 16px 20px 0;border-bottom:2px solid var(--line);vertical-align:middle;font-size:20px}
+td.cargo b{display:block;font-size:24px}
+td.cargo span{color:var(--soft);font-size:18px}
+.plates{display:flex;gap:10px}
+.plate{width:56px;height:56px;background:var(--blue);border-radius:6px;display:grid;place-items:center;position:relative}
+.plate svg{width:34px;height:34px;stroke:#fff;stroke-width:2.6;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.plate.ver{outline:3px dotted var(--ink);outline-offset:3px}
+.plate.dec{background:#fff;border:3px solid var(--blue)}
+.plate.dec svg{stroke:var(--blue)}
+.score{font-size:40px;font-weight:800}
+.score small{display:block;font-size:17px;font-weight:600;color:var(--soft)}
+.ok{color:var(--green)}
+.legend{display:flex;gap:28px;margin-top:20px;font-size:18px;color:var(--soft);align-items:center}
+.legend i{display:inline-block;width:22px;height:22px;background:var(--blue);border-radius:3px;vertical-align:middle;margin-right:8px}
+.legend i.v{outline:3px dotted var(--ink);outline-offset:2px}
+.legend i.d{background:#fff;border:3px solid var(--blue)}
+.btn{font-size:19px;font-weight:800;padding:12px 20px;background:var(--ink);color:#fff;border-radius:6px}
+.demo{position:absolute;right:48px;bottom:20px;font-size:16px;color:var(--soft)}
+</style></head><body>
+<header>
+  <div class="brand"><span class="isa"><svg viewBox="0 0 30 30"><circle cx="15" cy="5" r="2.5"/><path d="M15 9v9h7l3 7M15 13h6M11 15a7 7 0 1 0 9 9"/></svg></span>IncluTrabajo IA</div>
+  <nav><a>Inicio</a><a class="on">Vacantes para ti</a><a>Mis postulaciones</a><a>Mi perfil</a><a>Avisos</a></nav>
+</header>
+<div class="band"><span class="arrow"><svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>Siguiente paso: marca qué ajustes son esenciales para ti</div>
+<main>
+  <h1>Vacantes que encajan contigo</h1>
+  <p class="sub">Cada placa es una condición del puesto. Las de borde punteado fueron verificadas en sitio.</p>
+  <table>
+    <tr><th>Vacante</th><th>Accesibilidad del puesto</th><th>Encaje</th><th></th></tr>
+    <tr><td class="cargo"><b>Auxiliar administrativo</b><span>TechIncluye S.A.S. · Cartagena · Híbrido</span></td>
+      <td><div class="plates">
+        <span class="plate ver"><svg viewBox="0 0 34 34"><rect x="4" y="6" width="26" height="17" rx="2"/><path d="M12 29h10M17 23v6"/></svg></span>
+        <span class="plate ver"><svg viewBox="0 0 34 34"><path d="M4 28h26M8 28V18l9-8 9 8v10"/></svg></span>
+        <span class="plate dec"><svg viewBox="0 0 34 34"><circle cx="17" cy="17" r="12"/><path d="M17 10v7l5 3"/></svg></span></div></td>
+      <td class="score ok">93<small>encaja mucho</small></td><td><span class="btn">Ver por qué</span></td></tr>
+    <tr><td class="cargo"><b>Desarrollador junior frontend</b><span>TechIncluye S.A.S. · Remoto</span></td>
+      <td><div class="plates">
+        <span class="plate ver"><svg viewBox="0 0 34 34"><path d="M5 16l12-10 12 10M9 14v14h16V14"/></svg></span>
+        <span class="plate ver"><svg viewBox="0 0 34 34"><rect x="4" y="6" width="26" height="17" rx="2"/><path d="M12 29h10M17 23v6"/></svg></span>
+        <span class="plate dec"><svg viewBox="0 0 34 34"><path d="M8 9h18M8 15h18M8 21h11"/></svg></span></div></td>
+      <td class="score">61<small>encaja en parte</small></td><td><span class="btn">Ver por qué</span></td></tr>
+    <tr><td class="cargo"><b>Asesor de atención al cliente</b><span>Comercial del Caribe · Barranquilla · Presencial</span></td>
+      <td><div class="plates">
+        <span class="plate dec"><svg viewBox="0 0 34 34"><circle cx="17" cy="17" r="12"/><path d="M17 10v7l5 3"/></svg></span>
+        <span class="plate dec"><svg viewBox="0 0 34 34"><path d="M10 28V8h14v20M14 18h2"/></svg></span></div></td>
+      <td class="score">52<small>falta un ajuste esencial</small></td><td><span class="btn">Ver por qué</span></td></tr>
+  </table>
+  <div class="legend"><span><i class="v"></i>Verificada en sitio</span><span><i class="d"></i>Declarada por la empresa</span></div>
+</main>
+<div class="demo">Datos de demostración</div>
+</body></html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Fachadas del Centro</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{--anil:#2b4c9b;--ocre:#e2a72e;--coral:#e5685b;--verde:#2f8f5b;--cal:#ffffff;--wood:#1e1a17}
+*{box-sizing:border-box;margin:0}
+html,body{width:1440px;height:900px;overflow:hidden;background:var(--cal);color:var(--wood);font-family:"Bricolage Grotesque",system-ui,sans-serif}
+header{position:absolute;top:0;left:0;right:0;height:84px;display:flex;align-items:center;padding:0 56px;gap:40px;z-index:2;color:#fff}
+.brand{font-weight:800;font-size:24px}
+nav{display:flex;gap:30px;font-size:18px;font-weight:600}
+.in{margin-left:auto;font-weight:800;font-size:18px;background:#fff;color:var(--wood);padding:10px 20px;border-radius:999px}
+.walls{display:grid;grid-template-columns:1fr 1fr;height:900px}
+.wall{position:relative;padding:150px 56px 56px;display:flex;flex-direction:column}
+.w1{background:var(--anil);color:#fff}
+.w2{background:var(--ocre);color:var(--wood)}
+.balcony{position:absolute;left:56px;right:56px;top:96px;height:10px;background:rgba(0,0,0,.18);border-radius:2px}
+.w2 .balcony{background:rgba(30,26,23,.22)}
+.who{font-size:22px;font-weight:600}
+h1{font-size:104px;line-height:.92;font-weight:800;letter-spacing:-.045em;margin-top:18px}
+.w2 h1{font-size:96px}
+.copy{font-size:22px;line-height:1.5;max-width:520px;margin-top:28px}
+.go{margin-top:auto;display:flex;align-items:center;justify-content:space-between;border-top:3px solid currentColor;padding-top:22px}
+.go b{font-size:30px;font-weight:800}
+.go span{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:#fff}
+.w2 .go span{background:var(--wood)}
+.go svg{width:30px;height:30px;stroke:var(--anil);stroke-width:3;fill:none}
+.w2 .go svg{stroke:var(--ocre)}
+.chip{position:absolute;right:56px;top:150px;background:#fff;color:var(--wood);border-radius:20px;padding:20px 24px;width:330px}
+.chip b{font-size:22px;display:block}
+.chip .n{font-size:56px;font-weight:800;letter-spacing:-.04em;color:var(--verde);line-height:1;margin-top:8px}
+.chip span{font-size:16px}
+.demo{position:absolute;left:56px;bottom:20px;font-size:14px;color:#fff}
+</style></head><body>
+<header><div class="brand">IncluTrabajo IA</div><nav><a>Vacantes</a><a>Cómo verificamos</a><a>Accesibilidad</a></nav><span class="in">Entrar</span></header>
+<div class="walls">
+  <section class="wall w1"><div class="balcony"></div>
+    <p class="who">Para personas con discapacidad</p>
+    <h1>Tu talento<br>tiene puesto.</h1>
+    <p class="copy">Te mostramos vacantes con la accesibilidad que necesitas, verificada en sitio, y por qué encajan contigo. Gratis, siempre.</p>
+    <div class="go"><b>Busco empleo</b><span><svg viewBox="0 0 30 30"><path d="M5 15h20M17 7l8 8-8 8"/></svg></span></div>
+    <div class="chip"><b>Auxiliar administrativo</b><div class="n">93</div><span>de 100 · lector de pantalla verificado</span></div>
+  </section>
+  <section class="wall w2"><div class="balcony"></div>
+    <p class="who">Para empresas</p>
+    <h1>Cumple la cuota<br>contratando bien.</h1>
+    <p class="copy">2 personas con discapacidad por cada 100 trabajadores desde el 25 de junio de 2026. Te ayudamos a cumplir con puestos accesibles y personas que se quedan.</p>
+    <div class="go"><b>Contrato talento</b><span><svg viewBox="0 0 30 30"><path d="M5 15h20M17 7l8 8-8 8"/></svg></span></div>
+  </section>
+</div>
+<div class="demo">Datos de demostración</div>
+</body></html>

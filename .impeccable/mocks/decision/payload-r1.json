@@ -1,0 +1,56 @@
+{
+  "title": "Elige el mundo visual de IncluTrabajo IA",
+  "question": "Mano más segura, con oficio web actual. Los bocetos muestran la portada; las pantallas de trabajo heredan letra, paleta, densidad y el gesto propio de cada mundo.",
+  "options": [
+    {
+      "id": "grounded-ruta",
+      "kind": "grounded",
+      "label": "Línea de ruta",
+      "lineage": "Diagramas de líneas de transporte (Transcaribe, metro) aplicados al proceso de empleo",
+      "thesis": "Cada coincidencia es una ruta con cuatro estaciones: competencias, ajustes, lugar y salario; llena si cumple, hueca si falta.",
+      "palette": ["#FFFFFF", "#0D1B2A", "#0E9F6E", "#2563EB", "#F08A24", "#C2185B"],
+      "materials": ["diagrama de líneas", "estaciones llenas y huecas", "Geist"],
+      "viewport": "Titular grande a la izquierda, dos entradas claras («Busco empleo», «Contrato talento») y una línea de ruta que cruza la pantalla; al bajar, GSAP dibuja la línea estación por estación (perfil → ajustes → coincidencia → postulación → 6 meses).",
+      "risk": "La metáfora de ruta es conocida; si las estaciones no llevan datos reales se vuelve adorno.",
+      "html": ".impeccable/mocks/decision/grounded-ruta.html"
+    },
+    {
+      "id": "grounded-folio",
+      "kind": "grounded",
+      "label": "Folio verificado",
+      "lineage": "Expedientes y certificados colombianos: folio numerado, papel de seguridad, sello de verificación",
+      "thesis": "Lo verificado se ve como lo que es: un sello con fecha y número de folio; lo declarado queda en tinta sin sellar.",
+      "palette": ["#FFFFFF", "#13212E", "#0F5B4A", "#E7EFEC", "#B4472B"],
+      "materials": ["guilloche fino como marca de agua", "sello con fecha", "Public Sans"],
+      "viewport": "Una vacante como expediente que sube al hacer scroll; GSAP estampa los sellos de verificación uno a uno; a la izquierda, titular y las dos entradas.",
+      "risk": "Puede sentirse burocrático o frío si el sello se usa como adorno y no como estado real.",
+      "html": ".impeccable/mocks/decision/grounded-folio.html"
+    },
+    {
+      "id": "grounded-fachadas",
+      "kind": "grounded",
+      "label": "Fachadas del Centro",
+      "lineage": "Muros de cal y color del Centro Histórico de Cartagena: ocre, añil, coral, verde loro",
+      "thesis": "La identidad de Cartagena en campos de color plenos; cada público tiene su muro y el color guía el recorrido.",
+      "palette": ["#2B4C9B", "#E2A72E", "#E5685B", "#2F8F5B", "#FFFFFF", "#1E1A17"],
+      "materials": ["campos de color plenos", "sombra de balcón", "Bricolage Grotesque"],
+      "viewport": "Dos muros a pantalla completa, añil para personas y ocre para empresas, con titular enorme; al bajar, el fondo cambia de muro en muro con transiciones de color ligadas al scroll.",
+      "risk": "Riesgo de postal turística; los colores de fachada compiten con los colores de estado si no se separan.",
+      "html": ".impeccable/mocks/decision/grounded-fachadas.html"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "buildPath": { "value": "code" },
+  "canon": true,
+  "canonCard": {
+    "kind": "canon",
+    "label": "El estándar del sector",
+    "thesis": "Computrabajo, elempleo e Incluyeme al nivel de oficio de las mejores: buscador al centro, tarjetas, azul de confianza.",
+    "palette": ["#FFFFFF", "#111827", "#1D4ED8", "#EEF2F7"],
+    "materials": ["buscador protagonista", "tarjetas de vacante", "animaciones suaves de entrada"],
+    "viewport": "Buscador grande con cargo y ciudad, dos accesos y una fila de vacantes destacadas.",
+    "risk": "Indistinguible de la competencia por diseño.",
+    "html": ".impeccable/mocks/decision/canon-r1.html"
+  },
+  "steer": true
+}

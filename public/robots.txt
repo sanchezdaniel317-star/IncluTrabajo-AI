@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /persona
+Disallow: /empresa
+Disallow: /avisos
